@@ -28,4 +28,6 @@ fi
 # Copy the WAR file to the webapps directory
 cp $WAR_STAGED_LOCATION $CATALINA_HOME/webapps/$CONTEXT_PATH.war
 
-service tomcat7 start
+#service tomcat7 start
+
+sudo /opt/tomee/bin/startup.sh
